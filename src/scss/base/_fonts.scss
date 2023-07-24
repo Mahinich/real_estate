@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Lexend';
+  src: url('..fonts/Lexend-Regular.woff') format('woff'),
+    url('..fonts/Lexend-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('..fonts/Lexend-Medium.woff') format('woff'),
+    url('..fonts/Lexend-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('..fonts/Lexend-SemiBold.woff') format('woff'),
+    url('..fonts/Lexend-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('..fonts/Lexend-Bold.woff') format('woff'),
+    url('..fonts/Lexend-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}

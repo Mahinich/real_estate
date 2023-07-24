@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Lexend";
+  src: url("..fonts/Lexend-Regular.woff") format("woff"), url("..fonts/Lexend-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lexend";
+  src: url("..fonts/Lexend-Medium.woff") format("woff"), url("..fonts/Lexend-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lexend";
+  src: url("..fonts/Lexend-SemiBold.woff") format("woff"), url("..fonts/Lexend-SemiBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lexend";
+  src: url("..fonts/Lexend-Bold.woff") format("woff"), url("..fonts/Lexend-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+  text-align: right;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-family: "Lora";
+  font-weight: 400;
+}
+
+textarea,
+button,
+input {
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.container {
+  max-width: 75rem;
+}
